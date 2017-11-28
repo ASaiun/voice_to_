@@ -6,6 +6,7 @@
 # @File    : start.py.py
 # @Software: PyCharm Community Edition
 
+
 import sys
 from viocetotext.conf import settings
 from viocetotext.core.src import *
@@ -28,9 +29,9 @@ def main(file_path=None):
                                settings.LANGUE)
 
     if data_result['err_msg'] == 'success.':
-        print "语音结果：\n" + data_result['result'][0].encode('utf-8')
+        print("语音结果：\n" + data_result['result'][0])
     else:
-        print data_result
+        print(data_result)
 
 
 if __name__ == '__main__':

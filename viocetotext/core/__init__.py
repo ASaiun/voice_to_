@@ -6,7 +6,7 @@
 # @File    : __init__.py.py
 # @Software: PyCharm Community Edition
 
-from src import *
+from .src import  *
 
 __all__ = [
     "get_speech",
