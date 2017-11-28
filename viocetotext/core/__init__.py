@@ -9,8 +9,9 @@
 from src import *
 
 __all__ = [
-    "get_voice",
+    "get_speech",
     "get_size",
     "get_token",
-    "get_response"
+    "get_response",
+    "get_voice"
 ]
